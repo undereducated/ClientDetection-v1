@@ -1,0 +1,28 @@
+name: ClientDetection
+version: ${project.version}
+main: site.undereducated.clientdetection.ClientDetectionPlugin
+api-version: 1.16
+prefix: ClientDetection
+authors: [Undereducate]
+depend: [ViaVersion, UndereducatedUtil]
+description: A plugin to show a players client brand name.
+commands:
+  client:
+    description: View a users client brand and version
+    permission: clientdetection.use
+    permission-message: You do not have permission to view peoples client version
+    usage: /<command> <player>
+permissions:
+  clientdetection.use:
+    description: Allows you to view your client brand
+    default: op
+  clientdetection.viewother:
+    description: Allows you to view other peoples client brand
+    default: op
+  clientdetection.*:
+    description: All permissions for clientdetection
+    default: op
+    children:
+      clientdetection.use: true
+      clientdetection.viewother: true
+
