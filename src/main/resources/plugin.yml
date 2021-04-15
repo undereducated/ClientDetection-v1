@@ -16,6 +16,9 @@ permissions:
   clientdetection.use:
     description: Allows you to view your client brand
     default: op
+  clientdetection.alerts:
+    description: Allows you to get alerts when people join
+    default: op
   clientdetection.viewother:
     description: Allows you to view other peoples client brand
     default: op

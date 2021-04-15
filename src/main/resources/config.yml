@@ -1,0 +1,11 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                 ClientDetection Config               | #
+# +------------------------------------------------------+ #
+############################################################
+#                    Made by Undereducate                  #
+###########################################################
+
+# Prefix, allows for normal color codes, hex color codes, and gradients.
+# COLOR API: https://www.spigotmc.org/resources/iridiumcolorapi.87351/
+prefix: <GRADIENT:586ba4>ClientDetection</GRADIENT:324376> &8l &r
