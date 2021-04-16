@@ -1,6 +1,6 @@
 # ClientDetection-v1
 
-ClientDetection is a simple Spigot plugin to view a players client version and brand, reliant on the [ViaVersion API](https://www.spigotmc.org/resources/viaversion.19254/), and my custom API [UndereducatedAPI](https://gofile.io/d/ZAXkEy) used for my public, and upcoming plugins.
+ClientDetection is a simple Spigot plugin to view a players client version and brand, reliant on the [ViaVersion API](https://www.spigotmc.org/resources/viaversion.19254/), and my custom API [UndereducatedAPI](https://gofile.io/d/DBl4Bu) used for my public, and upcoming plugins.
 
 ## Commands
 
@@ -16,4 +16,4 @@ ClientDetection is really simple and light weight, all you have to do is `/clien
 
 If you get an error upon boot, make sure the size of the files are correct to avoid corruption. 
 - ClientDetection is `25.2k KB`
-- UndereducatedUtils is `10 KB`
+- UndereducatedUtils is `23.6 KB`
