@@ -84,9 +84,11 @@
             <scope>provided</scope>
         </dependency>
 		<dependency>
-			<groupId>us.myles</groupId>
-			<artifactId>viaversion</artifactId>
-			<version>3.2.1</version>
+			<groupId>us.miles</groupId>
+			<artifactId>ViaVersion</artifactId>
+			<version>3.3.0-21w11a</version>
+			<scope>system</scope>
+			<systemPath>E:/Libs/viaversion-api-3.3.0-21w11a.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.iridium</groupId>

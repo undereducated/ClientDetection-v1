@@ -3,7 +3,7 @@ version: ${project.version}
 main: site.undereducated.clientdetection.ClientDetectionPlugin
 api-version: 1.16
 prefix: ClientDetection
-authors: [Undereducate]
+author: [Undereducate]
 depend: [ViaVersion, UndereducatedUtil]
 description: A plugin to show a players client brand name.
 commands:

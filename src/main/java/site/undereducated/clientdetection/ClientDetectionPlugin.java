@@ -11,6 +11,8 @@ import site.undereducated.undereducatedutil.UndereducatedAPI;
 import us.myles.ViaVersion.api.Via;
 import us.myles.ViaVersion.api.ViaAPI;
 
+import java.net.MalformedURLException;
+
 public final class ClientDetectionPlugin extends JavaPlugin implements Listener {
 	private static ViaAPI viaAPI;
 	public static String prefix = "";
@@ -18,7 +20,11 @@ public final class ClientDetectionPlugin extends JavaPlugin implements Listener 
 	public void onEnable(){
 		this.viaAPI = Via.getAPI();
 		this.getCommand("client").setExecutor(new client(this));
-		UndereducatedAPI.loadPlugin("ClientDetection");
+		try {
+			UndereducatedAPI.loadPlugin("ClientDetection");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		// load config
 		getConfig().options().copyDefaults();
 		saveDefaultConfig();
