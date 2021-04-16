@@ -11,3 +11,9 @@ ClientDetection is really simple and light weight, all you have to do is `/clien
 `clientdetection.use` - Allows you to view your own client brand<br>
 `clientdetection.viewother` - Allows you to view other peoples client brand<br>
 `clientdetection.*` - All ClientDetection permissions
+
+### Errors upon boot
+
+If you get an error upon boot, make sure the size of the files are correct to avoid corruption. 
+- ClientDetection is `25.2k KB`
+- UndereducatedUtils is `10 KB`
