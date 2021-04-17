@@ -5,6 +5,8 @@ api-version: 1.16
 prefix: ClientDetection
 author: [Undereducate]
 depend: [ViaVersion, UndereducatedUtil]
+softdepend:
+  - PlaceholderAPI
 description: A plugin to show a players client brand name.
 commands:
   client:
