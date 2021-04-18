@@ -12,6 +12,13 @@ ClientDetection is really simple and light weight, all you have to do is `/clien
 `clientdetection.viewother` - Allows you to view other peoples client brand<br>
 `clientdetection.*` - All ClientDetection permissions
 
+## Placeholders
+
+As of version 1.1, ClientDetection now has placeholders.<br>
+`%client_version%` - Shows the client version of the player<br>
+`%client_brand%` - Shows the client brand of the player<br><br>
+![in game](https://cdn.kurwa.club/files/lXUeR.png "Placeholders in game")
+
 ### Errors upon boot
 
 If you get an error upon boot, make sure the size of the files are correct to avoid corruption. 
